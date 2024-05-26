@@ -7,7 +7,7 @@ class Colors:
     RED = '\033[91m'
     END = '\033[0m'
 
-def wyborg():
+def wybore():
     print(f'{Colors.BLUE}Wybierz swoje imię:')
     print('Imię do wyboru -> Ludwik')
     print('Imię do wyboru -> Bożena')
@@ -228,4 +228,4 @@ def bitwa():
         print('Brawoo, odtąd żyjesz spokojnym  zyciem.')
 
 if __name__ == "__main__":
-    wyborg()
+    wybore()
